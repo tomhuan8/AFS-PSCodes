@@ -1,9 +1,6 @@
+#https://raw.githubusercontent.com/tomhuan8/AFS-PSCodes/refs/heads/main/oobe_before.ps1
+
 #Start Windows Update
-import-module OSD -Force
+Write-Host "Does it work?"
 
-#Set High Performance
-powercfg /setactive DED574B5-45A0-4F42-8737-46345C09C238
-
-Start-WindowsUpdate
-
-#pdate-OSDCloud -UpdateType WindowsUpdate
+write-host "Maybe"
