@@ -2,3 +2,4 @@
 
 #Starting the script
 Write-Output "Starting OOBE Script | DateTime: $($(Get-Date).ToString("yyyy-MM-dd HH:mm:ss"))" | Out-File -FilePath C:\Temp\OOBE_Cust.log -Force -Append
+
